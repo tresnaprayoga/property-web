@@ -1,4 +1,5 @@
 import NavbarProperty from './components/Navbar';
+import HeroImage from './Pages/Homepage';
 
 function App() {
   return (
@@ -6,6 +7,9 @@ function App() {
       <header>
         <NavbarProperty />
       </header>
+      <main>
+        <HeroImage />
+      </main>
     </>
   );
 }
