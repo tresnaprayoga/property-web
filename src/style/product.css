@@ -1,0 +1,69 @@
+.produk {
+  width: 90%;
+  padding: 2px;
+  margin: 100px auto;
+}
+
+.produk h2 {
+  font-family: 'Poppins';
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.produk p {
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.produk-item {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.produk-item img {
+  width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+  .produk {
+    width: 80%;
+    margin: 100px auto;
+  }
+
+  .produk-item {
+    display: grid;
+    grid-template-areas:
+      'img-1 img-2 img-3'
+      'img-1 img-4 img-5';
+    gap: 20px;
+  }
+
+  .produk-item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .img-1 {
+    grid-area: img-1;
+    width: 95%;
+  }
+
+  .img-2 {
+    grid-area: img-2;
+  }
+
+  .img-3 {
+    grid-area: img-3;
+  }
+  .img-4 {
+    grid-area: img-4;
+  }
+
+  .img-5 {
+    grid-area: img-5;
+  }
+}
