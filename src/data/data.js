@@ -9,10 +9,10 @@ const heroSectiondata = [
 
 const ProductProperty = [
   {
-    image: '/1.jpg',
+    image: '/7.jpg',
   },
   {
-    image: '/2.jpg',
+    image: '/1.jpg',
   },
 
   {
@@ -22,7 +22,7 @@ const ProductProperty = [
     image: '/4.jpg',
   },
   {
-    image: '/4.jpg',
+    image: '/6.jpg',
   },
 ];
 
@@ -31,7 +31,7 @@ function dataHeroSection() {
 }
 
 function ProdukList() {
-  ProductProperty;
+  return ProductProperty;
 }
 
 export { dataHeroSection, ProdukList };

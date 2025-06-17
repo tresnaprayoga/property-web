@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import HeroSection from '../components/HeroItem';
 import NavigationMenu from '../components/navigation';
-import ProductItem from '../components/product/productItem';
-import { dataHeroSection, ProdukList } from '../data/data';
+import ProdukList from '../components/product/listProduct';
+import { dataHeroSection } from '../data/data';
 
-const HeroImage = () => {
+const HomePage = () => {
   const [dataHero, setDataHero] = useState(() => dataHeroSection());
   const [dataProduk, setDataProduk] = useState(() => ProdukList());
   return (
@@ -14,10 +14,10 @@ const HeroImage = () => {
       <div className='produk'>
         <h2>Tipe Properti</h2>
         <p>Temukan Tempat Idaman Anda Segera Sebelum Kehabisan</p>
-        <ProductItem />
+        <ProdukList />
       </div>
     </div>
   );
 };
 
-export default HeroImage;
+export default HomePage;

@@ -1,5 +1,5 @@
 import NavbarProperty from './components/Navbar';
-import HeroImage from './Pages/Homepage';
+import HomePage from './Pages/Homepage';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
         <NavbarProperty />
       </header>
       <main>
-        <HeroImage />
+        <HomePage />
       </main>
     </>
   );
