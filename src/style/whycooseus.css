@@ -1,0 +1,101 @@
+/* Why Choose Us Section */
+
+.why-choose-us {
+  padding: 50px 20px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+.why-choose-us h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: 'Poppins';
+  font-size: 40px;
+  font-weight: 300;
+  color: black;
+}
+
+.why-choose-us > p {
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 40px;
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* Grid layout */
+.why-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+/* Card style */
+.why-card {
+  padding: 25px 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.why-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+}
+
+.why-icon {
+  width: 70%;
+  margin: auto;
+}
+
+.why-icon img {
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+/* Title & Description in card */
+.why-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: rgb(105, 59, 1);
+  font-family: 'Poppins', sans-serif;
+}
+
+.why-card p {
+  font-size: 0.95rem;
+  color: rgb(105, 59, 1);
+  font-family: 'Poppins';
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.sub-title {
+  width: 90%;
+  margin: auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+  padding: 5px;
+}
+
+/* Responsive layout */
+@media (min-width: 600px) {
+  .why-choose-us {
+    width: 50%;
+  }
+  .why-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .why-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .why-choose-us {
+    width: 50%;
+  }
+}

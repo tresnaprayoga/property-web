@@ -1,7 +1,10 @@
 @import './style/navbar.css';
-@import './style/heroimage.css';
+@import './style/productunggulan.css';
 @import './style/navigation.css';
 @import './style/product.css';
+@import './style/whycooseus.css';
+@import './style/konsultasi.css';
+@import './style/herosection.css';
 
 * {
   padding: 0;
